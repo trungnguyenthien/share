@@ -28,4 +28,4 @@ sudo apt-get -y install git
 wget http://fismed.ciemat.es/GAMOS/download/GAMOS.6.2.0/download_scripts.sh
 bash ./download_scripts.sh
 cd scripts
-bash ./installGamos.sh "../gamos620"
+bash ./installGamos.sh "~/gamos620"
