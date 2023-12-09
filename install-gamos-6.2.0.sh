@@ -25,8 +25,8 @@ sudo apt-get -y install libxpm-dev
 sudo apt-get -y install python-dev
 sudo apt-get -y install python-numpy
 sudo apt-get -y install git
-mkdir ~/gamos620 # Create gamos620 dir at home
+mkdir /usr/gamos620
 wget http://fismed.ciemat.es/GAMOS/download/GAMOS.6.2.0/download_scripts.sh
 bash ./download_scripts.sh
 cd scripts
-bash ./installGamos.sh ~/gamos620
+bash ./installGamos.sh /usr/gamos620
